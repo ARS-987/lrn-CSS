@@ -1,0 +1,36 @@
+#div1{
+    background-color: cadetblue;
+    border: black dotted 3px;
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    background-clip: content-box;
+}
+#div2{
+    border: blue solid 3px;
+    width: 700px;
+    height: 500px;
+    background-image: url(squde.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: 30% 40%;
+}
+#div3{
+    border: black dotted 3px;
+    width: 800px;
+    height: 300px;
+    padding: 30px;
+    background-image: url(squde.jpg);
+    background-clip: content-box;
+    background-origin: content-box;
+}
+#div4{
+    border: red dotted 13px;
+    width: 800px;
+    height: 400px;
+    padding: 30px;
+    background-image: url(squde.jpg);
+    background-size: 100% 100%;
+    background-clip: padding-box;
+    background-attachment: fixed;
+}
