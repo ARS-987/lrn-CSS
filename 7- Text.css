@@ -10,4 +10,16 @@ p{
     text-decoration-color: mediumblue;
     text-indent: 3px;
     text-transform: capitalize;
+    white-space: pre-line;
+    word-spacing: 33px;
+}
+div{
+    width: 200px;
+    background-color: palegreen;
+    border: purple 3px solid;
+    height: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
 }
