@@ -1,0 +1,13 @@
+p{
+    color: maroon;
+    direction: ltr;
+    column-count: 3;
+    letter-spacing: 3px;
+    line-height: 3px;
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: mediumblue;
+    text-indent: 3px;
+    text-transform: capitalize;
+}
