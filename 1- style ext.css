@@ -1,12 +1,12 @@
 p{
     color: crimson;
-    border: 13px green;
+    border: 13px green solid;
 }
 
 #par2{
     color: indigo;
     font-size: x-large;
-    border: 30px lightseagreen;
+    border: 30px lightseagreen solid;
 }
 
 .cls{
