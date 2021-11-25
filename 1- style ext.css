@@ -2,3 +2,15 @@ p{
     color: crimson;
     border: 13px green;
 }
+
+#par2{
+    color: indigo;
+    font-size: x-large;
+    border: 30px lightseagreen;
+}
+
+.cls{
+    background-color: navy;
+    color: snow;
+    text-align: center;
+}
