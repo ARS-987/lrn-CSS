@@ -19,4 +19,8 @@ div{
     /* border-radius: 20px 50px */
     /* border-radius: 20px 50px 100px 0px; */
     border-bottom-left-radius: 0px;
+    outline-style: solid;
+    outline-color: gold;
+    outline-width: 30px;
+    outline-offset: 10px;
 }
