@@ -1,0 +1,18 @@
+#color{
+    color: black;
+}
+#color1{
+    color: rgb(red, green, blue);
+}
+#color2{
+    color: #ffffff;
+}
+#color3{
+    color: hsl(hue, saturation, lightness);
+}
+#color4opa{
+    color: rgba(red, green, blue, alpha);
+}
+#color5opa{
+    color: hsla(hue, saturation, lightness, alpha);
+}
