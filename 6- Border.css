@@ -1,0 +1,22 @@
+div{
+    border: solid;
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    /* border-style: dotted */
+    /* border-style: solid dottedl */
+    /* border-style: solid dotted dashed double; */
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: dashed;
+    border-left-style: double;
+    /* border-color: black; */
+    border-top-color: black;
+    border-right-color: blue;
+    border-bottom-color: chartreuse;
+    border-left-color: dimgrey;
+    border-width: 10px;
+    /* border-radius: 20px 50px */
+    /* border-radius: 20px 50px 100px 0px; */
+    border-bottom-left-radius: 0px;
+}
