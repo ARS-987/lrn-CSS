@@ -1,0 +1,30 @@
+p , section{
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    font-size: 30px;
+}
+#div1{
+    background-color: chocolate;
+}
+#div2{
+    background-color: darkseagreen;
+}
+/* #div2 p{
+    background-color: red;
+} */
+/* #div1 > p {
+    background-color: red;
+} */
+/* #section1 ~ p{
+    background-color: crimson;
+} */
+/* #section1 + p{
+    background-color: crimson;
+} */
+p.odd{
+    background-color: slateblue;
+}
+p.even{
+    background-color: blue;
+}

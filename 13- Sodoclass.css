@@ -1,0 +1,82 @@
+#div-p{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+#div-p:hover{
+    background-color: red;
+}
+#div1 , #div2 , #div3{
+    display: none;
+    background-color: burlywood;
+    width: 300px;
+    position: absolute;
+    padding: 10px;
+}
+#li1:hover #div1{
+    display: block;
+}
+a:link{
+    color: red;
+}
+:root{
+     background-color:aquamarine;
+}
+#div2:target,#div3:target{
+    display: block;
+}
+a:visited{
+    color:darkgreen;
+}
+#div-e{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+#div:empty{
+    background-color: tomato;
+}
+input:empty{
+    background-color:violet;
+}
+input:disabled{
+    background-color: darkmagenta;
+}
+input:focus{
+    background-color: gainsboro;
+}
+input:in-range{
+    background-color: greenyellow;
+}
+/* input:out-of-range{
+    background-color: maroon;
+} */
+input:invalid{
+    background-color: orangered;
+}
+/* input:read-write{
+    background-color: violet;
+} */
+input:checked{
+    width: 100px;
+    height: 100px;
+}
+input{
+    padding: 5px;
+    display: block;
+    margin: 5px 0px;
+}
+p:first-child
+/* h1:first-child
+p:first-of-type
+h1:first-of-type
+p:last-child
+h1:last-child
+p:last-of-type
+h1:last-of-type
+p:nth-child(2)
+h1:nth-child(2)
+p:nth-of-type(2)
+h1:nth-last-of-type(2) */ {
+    background-color: yellow;
+}

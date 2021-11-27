@@ -1,0 +1,21 @@
+img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#div0{
+    background-color: darkgreen;
+    overflow: auto;
+}
+#div1{
+    background-color: darkseagreen;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+#div2{
+    background-color: lightcoral;
+    width: 300px;
+    height: 300px;
+    clear: both;
+}
