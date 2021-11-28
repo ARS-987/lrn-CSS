@@ -1,0 +1,37 @@
+p::first-letter{
+    color: red;
+}
+p::first-line{
+    color: royalblue;
+}
+li::marker{
+    color: seagreen;
+}
+p::selection{
+    color: brown;
+    background-color: cyan;
+}
+p::after{
+    content: "__ARS__";
+}
+p::before{
+    content: "__987__";
+}
+p::before{
+    content: open-qoute;
+}
+p::after{
+    content: close-qoute;
+}
+a::after{
+    content: attr(href);
+}
+p::before{
+    content: url();
+}
+p{
+    counter-increment: x;
+}
+p::before{
+    content: counter(x) "-";
+}
