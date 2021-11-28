@@ -1,0 +1,35 @@
+img{
+    width: 100px;
+    height: 200px;
+    border: 3px solid black;
+    opacity: 10%;
+}
+img[title]{
+    opacity: 1;
+}
+img[title = icon]{
+    opacity: 1;
+}
+img[title ~= icon]{
+    opacity: 1;
+}
+img[title |= icon]{
+    opacity: 1;
+}
+img[title ^= icon]{
+    opacity: 1;
+}
+img[title $= icon]{
+    opacity: 1;
+}
+img[title *= icon]{
+    opacity: 1;
+}
+
+div{
+    width: 150px;
+    height: 200px;
+    border: black 3px solid;
+    background: url();
+    background-position: -150px -200px;
+}
