@@ -1,0 +1,28 @@
+/*
+div{
+    background-color: blue;
+}
+
+div{
+    background-color: chartreuse;
+} */
+
+/*
+1000 -> inline style
+100 -> ID
+10 -> clss, attr selector, pseudo clss
+1 -> Element, pseudo element
+0 -> *
+*/
+
+*{
+    background-color: cornflowerblue;
+}
+
+div{
+    background-color: darkgreen !important;
+}
+
+#div1{
+    background-color: darkslategrey;
+}
