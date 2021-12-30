@@ -1,0 +1,30 @@
+#d1{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to top left, black , green , blue);
+}
+#d2{
+    width: 500px;
+    height: 500px;
+    background-image: radial-gradient(farthest-corner at 20% 20%, yellow 30%, red);
+}
+#d3{
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(from 90deg at 30% 40%,red 200deg, green , blue);
+}
+#d4{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(blue, transparent);
+}
+#d5{
+    width: 500px;
+    height: 500px;
+    background-image: repeating-linear-gradient(blue , yellow 10%);
+}
+#d6{
+    width: 500px;
+    height: 500px;
+    background-image: conic-gradient(black 0% 30%, red 30% 70% , blue 70%);
+}
