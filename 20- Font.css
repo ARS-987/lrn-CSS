@@ -1,0 +1,12 @@
+@font-face{
+    font-family: lorem;
+    src: url(mikhak.ttf);
+}
+
+p{
+    font-family: monospace;
+}
+
+*{
+    font-family: Tahoma;
+}
